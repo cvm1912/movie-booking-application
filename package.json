@@ -1,0 +1,26 @@
+{
+  "name": "movie-booking-application",
+  "version": "1.0.0",
+  "description": "a movie booking service",
+  "homepage": "https://github.com/cvm1912/movie-booking-application#readme",
+  "bugs": {
+    "url": "https://github.com/cvm1912/movie-booking-application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvm1912/movie-booking-application.git"
+  },
+  "license": "ISC",
+  "author": "shivam singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4"
+  }
+}
