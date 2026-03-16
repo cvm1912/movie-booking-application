@@ -9,6 +9,7 @@ const movieRoutes = require('./src/routes/movie.routes');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
 // test the server 
 
 app.get('/', (req, res) => {
